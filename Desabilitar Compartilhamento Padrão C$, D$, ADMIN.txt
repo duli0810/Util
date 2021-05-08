@@ -1,0 +1,38 @@
+echo ""
+echo                                              "################ Desabilitar Compartilhamento Padrão  ################"
+echo ""
+echo                                                  "################ Autor: EDUARDO RODRIGUES ################"
+echo ""
+echo                                                   "################ Criado em: 14/04/2021 ################"
+echo ""
+echo ""
+echo ""
+<#
+💻💻💻 Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/ 💻💻💻
+
+Passo a Passo para Desabilitar Compartilhamento Padrão C$, D$, ADMIN
+
+#>
+
+### Desabilitar Compartilhamento Padrão C$, D$, ADMIN ###
+
+1. No menu 'executar', digitar 'regedit';
+
+2. Dentro da janela do REGEDIT, abra o caminho:
+ 
+HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Services/LanmanServer/Parameters
+
+2. Do lado Direito: 
+
+Crie um novo valor DWORD com nome AutoShareWks e valor 0
+
+OBS.: Salve o Registro e Reincie á Máquina
+
+
+# COMPLEMENTO 
+
+ADMIN$: É o compartilhamento para a administração remota;
+
+IPC$: É o compartilhamento para o IPC (Inter-process communication) remoto;
+
+C$, B$, e D$: São os compartilhamentos de seus discos, criados pelo Windows por padrão.
