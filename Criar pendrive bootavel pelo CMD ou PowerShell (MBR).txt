@@ -1,5 +1,5 @@
 echo ""
-echo                                              "################ Criar pendrive bootavel pelo CMD ou PowerShell  ################"
+echo                                        "################ Criar pendrive bootavel pelo CMD ou PowerShell (MBR)  ################"
 echo ""
 echo                                                  "################ Autor: EDUARDO RODRIGUES ################"
 echo ""
