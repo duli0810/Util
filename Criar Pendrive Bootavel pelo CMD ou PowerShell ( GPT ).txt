@@ -1,0 +1,36 @@
+echo ""
+echo                                              "################ Criar Pendrive Bootavel pelo CMD ou PowerShell ( GPT )  ################"
+echo ""
+echo                                                  "################ Autor: EDUARDO RODRIGUES ################"
+echo ""
+echo                                                   "################ Criado em: 14/04/2021 ################"
+echo ""
+echo ""
+echo ""
+<#
+💻💻💻 Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/2021/06/criar-pendrive-bootavel-pelo-cmd-ou.html 💻💻💻
+
+Criar Pendrive Bootavel pelo CMD ou PowerShell ( GPT )
+
+Passo a Passo para Criar pendrive bootavel pelo CMD ou PowerShell
+
+#>
+
+1- Digite “ diskpart ”
+2- Em seguinda Digite “ List Disk ”
+3- Entre com o comando “ Select Disk ” seguido pelo número do disco o "Numero do Disco"
+4- Entre com o comando “ Clean ”
+5- Entre com o comando “ Convert GPT ”
+6- Execute o comando “ Create partition primary ”
+7- Digite “ Format fs=fat32 quick ” ( dispositivos menor de 16GB )
+
+          “ Format fs=ntfs quick ”  ( dispositivos maior ou igual a 16GB ) 
+9- seguida, “ Assign ”
+10-  Entre com o comando “ Exit ” 
+
+<#
+⚠️Observações: 
+
+Caso venha utilizar o pendrive criado para instalação do Windows, basta copiar ( CRTL + a  >>   CRTL + C  >>  CRTL + V) da mídia ( Ex.: .ISO ) contendo os instaladores do Windows  para a "raiz" do Pendrive.
+#>		  
+		  
