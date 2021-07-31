@@ -11,7 +11,7 @@ Esse arquivo ignora a verificação na BIOS e mostra a Tela de Seleção de Vers
 
 ⭐ As mídias oficiais da Microsoft não possuem esse arquivo.
 
-Para inibir essa verificaçao na BIOs, basta criar o arquivo EI.CFG com codigo abaixo: 
+Para inibir essa verificaçao na BIOS, basta criar o arquivo EI.CFG com codigo abaixo e salva na pasta "sources" dos instaladores do Windows: 
 
 
 #
