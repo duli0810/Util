@@ -17,7 +17,7 @@ Para inibir essa verificaçao na BIOS, basta criar o arquivo EI.CFG com codigo a
 #
 
 Código do **EI.CFG**: 
-
+```ruby
     [EditionID]
 
 
@@ -26,7 +26,7 @@ Código do **EI.CFG**:
 
     [VL]
     0
-
+```
 
 #
 ⭐Acesse meu Canal do YouTube:
