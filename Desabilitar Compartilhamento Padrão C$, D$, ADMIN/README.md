@@ -41,7 +41,7 @@ OBS.:
 #
 ⭐Acesse meu Canal do YouTube:
 
-["Desabilitar Compartilhamento Padrão C$"](https://youtu.be/DJYT8WFK1L0)
+["Desabilitar o Compartilhamento C$"](https://youtu.be/DJYT8WFK1L0)
 
     
 
