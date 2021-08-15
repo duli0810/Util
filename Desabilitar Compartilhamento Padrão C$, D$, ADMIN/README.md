@@ -9,10 +9,11 @@ O procedimento que mostraremos irá desabilitar o compartilhamento não só do C
 
 ### 💡 Complemento 
 
+C$, B$, e D$: São os compartilhamentos de seus discos, criados pelo Windows por padrão.
+
 ADMIN$: É o compartilhamento para a administração remota;
 
 IPC$: É o compartilhamento para o IPC (Inter-process communication) remoto;
-
 
 ## ⭐ Procedimento:
 
