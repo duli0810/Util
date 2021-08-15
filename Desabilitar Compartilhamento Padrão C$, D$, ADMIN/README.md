@@ -1,32 +1,41 @@
-# Habilitar Seleção de Versão de Windows em ISO
+# Desabilitar Compartilhamento Padrão C$, D$, ADMIN
 
 
-Os dispositivos que vem com Sistema Operacional Windows já instalado, na maioria dos casos vem com a versão Windows 10 Home ou Windows 10 Home SingleLanguage. E se por algum motivo vier a formatar e queira utilizar a versão Windows 10 Pro através de mídias oficiais da Microsoft, irá verificar que não aparece Tela de Seleção de Versão do Windows 10 e após a instalação, permanecerá a versão que veio com dispositivos. 
+C$ é um compartilhamento padrão do Windows. Porém é um diretório que em rede pode retirar a privacidade de dados, pois qualquer usuário com uma instrução mais elevada consegue ter acesso a todos arquivos através deste compartilhamento. 
 
-Isso NÃO significar que o Mídia ( ISO, DVD ) esteja corrompida. Isso acontece devido a dispositivo que tem o **serial de S.O. gravado na BIOS**, a instalação pula a seleção de versão do Windows 10, e seleciona automaticamente a versão correspondente a licença da BIOS.
+Através deste diretório é possível acessar a pasta de usuários e consequentemente os demais diretório (desktop, documentos, etc...) 
 
-Isso se deve a falta de um arquivo chamado EI.CFG . 
+O procedimento que mostraremos irá desabilitar o compartilhamento não só do C$, mas também do D$, ADMIN. 
 
-Esse arquivo ignora a verificação na BIOS e mostra a Tela de Seleção de Versão do Windows 10
+### 💡 Complemento 
 
-⭐ As mídias oficiais da Microsoft não possuem esse arquivo.
+ADMIN$: É o compartilhamento para a administração remota;
 
-Para inibir essa verificaçao na BIOS, basta criar o arquivo EI.CFG com codigo abaixo e salva na pasta "sources" dos instaladores do Windows: 
+IPC$: É o compartilhamento para o IPC (Inter-process communication) remoto;
 
 
-#
+## ⭐ Procedimento:
 
-Código do **EI.CFG**: 
+1. No menu 'executar', digitar: 
+
 ```ruby
-    [EditionID]
-
-
-    [Channel]
-    Volume
-
-    [VL]
-    0
+    regedit 
 ```
+2. Dentro da janela do REGEDIT, abra o caminho:
+
+```ruby
+    HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Services/LanmanServer/Parameters 
+```
+3. Do lado Direito, crie um novo valor 'DWORD' com nome:
+
+```ruby
+    AutoShareWks
+    valor = 0
+```
+#
+OBS.:
+
+    Salve o Registro e Reincie á Máquina
 
 #
 ⭐Acesse meu Canal do YouTube:
