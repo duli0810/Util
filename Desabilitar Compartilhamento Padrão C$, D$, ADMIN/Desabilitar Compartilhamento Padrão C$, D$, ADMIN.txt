@@ -22,7 +22,7 @@ Passo a Passo para Desabilitar Compartilhamento Padrão C$, D$, ADMIN
  
 HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Services/LanmanServer/Parameters
 
-2. Do lado Direito: 
+3. Do lado Direito: 
 
 Crie um novo valor DWORD com nome AutoShareWks e valor 0
 
