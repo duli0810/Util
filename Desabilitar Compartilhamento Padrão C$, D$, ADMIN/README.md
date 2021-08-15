@@ -41,7 +41,7 @@ OBS.:
 #
 ⭐Acesse meu Canal do YouTube:
 
-["Habilitar Tela de Seleção de Versão do Windows 10"](https://youtu.be/DJYT8WFK1L0)
+["Desabilitar Compartilhamento Padrão C$"](https://youtu.be/DJYT8WFK1L0)
 
     
 
