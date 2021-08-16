@@ -1,4 +1,4 @@
-# Desabilitar Compartilhamento Padrão C$, D$, ADMIN
+# Desabilitar Compartilhamento C$ do Windows
 
 
 C$ é um compartilhamento padrão do Windows. Porém é um diretório que em rede pode retirar a privacidade de dados, pois qualquer usuário com uma instrução mais elevada consegue ter acesso a todos arquivos através deste compartilhamento. 
@@ -41,7 +41,7 @@ OBS.:
 #
 ⭐Acesse meu Canal do YouTube:
 
-["Desabilitar o Compartilhamento C$"](https://youtu.be/-vbTs2AYFvk)
+["Desabilitar o Compartilhamento C$ do Windows"](https://youtu.be/-vbTs2AYFvk)
 
     
 
