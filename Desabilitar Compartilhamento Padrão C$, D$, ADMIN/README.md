@@ -25,7 +25,7 @@ IPC$: É o compartilhamento para o IPC (Inter-process communication) remoto;
 2. Dentro da janela do REGEDIT, abra o caminho:
 
 ```ruby
-    HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Services/LanmanServer/Parameters 
+    HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters 
 ```
 3. Do lado Direito, crie um novo valor 'DWORD' com nome:
 
