@@ -43,5 +43,9 @@ OBS.:
 
 ["Desabilitar o Compartilhamento C$ do Windows"](https://youtu.be/-vbTs2AYFvk)
 
+⭐Acesse meu BLOG:
+
+["Desabilitar o Compartilhamento C$ do Windows"](https://acesso8.blogspot.com/2021/08/desabilitar-compartilhamento-c-do.html)
+
     
 
